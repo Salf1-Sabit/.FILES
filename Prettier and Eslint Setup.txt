@@ -8,3 +8,6 @@
 5. npm init @eslint/config (configure eslint as necessary for your project)
 6. eslint rules values: off/0, warning/1, error/2
    - using these values, you can set your own rules in eslint (see documentation for more)
+7. enable/disable any block of code using these comments: 
+   - /* eslint-disable */
+   - /* eslint-enable */
