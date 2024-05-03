@@ -1,0 +1,10 @@
+-- PRETTIER + ESLINT SETUP
+0. Install "eslint" as vscode extension (if not already installed)
+1. Goto Settings >> workspace >> formatter >> set: prettier + set: format on save
+   - This will create .vscode/settings.json for your current project/workspace
+2. Configure settings.json (copy-paste your configuration)
+3. npm init -y (creates package.json for package management)
+4. npm install eslint --save-dev (install eslint as dev-dependencies)
+5. npm init @eslint/config (configure eslint as necessary for your project)
+6. eslint rules values: off/0, warning/1, error/2
+   - using these values, you can set your own rules in eslint (see documentation for more)
